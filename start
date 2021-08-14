@@ -36,10 +36,10 @@
 param (
         
     [Parameter(Mandatory=$false)]
-    [String] $AzureSubscriptionIdAssetName = '4f8c9299-6bc6-45b5-ac49-b23a03428f69',
+    [String] $AzureSubscriptionIdAssetName = '<subscriprtion ID>',
 
     [Parameter(Mandatory=$false)] 
-    [String] $ResourceGroupName= 'TEJARG'
+    [String] $ResourceGroupName= 'ResourceGRoupName'
 )
 
 # Returns strings with status messages
